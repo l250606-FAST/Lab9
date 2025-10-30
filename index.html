@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css">
+<title>Lab 9</title>
+</head>
+<body>
+<form>
+  <h1>Continental Hotel Reservation Form</h1>
+  <label >Name</label>
+  <input type="text" required />
+  <label >Email</label>
+  <input type="email" required />
+  <label >Mobile No.</label>
+  <input type="tel" required />
+  <label >Arrival Time</label>
+  <input type="time" required />
+  <label>Departure</label>
+  <input type="time"required />
+  <div>
+    <label>Room Type</label>
+    <label><input type="radio"  value="single" required /> Single</label>
+    <label><input type="radio" value="double" /> Double</label>
+    <label><input type="radio" value="suite" /> Presidential Suite</label>
+  </div>
+  <div>
+    <label>Preferences</label>
+    <label><input type="checkbox"  /> Non-Smoking</label>
+    <label><input type="checkbox"  /> Internet</label>
+    <label><input type="checkbox"  /> Firm Mattress</label>
+  </div>
+  <div>
+    <label>Mode of Payment</label>
+    <label><input type="checkbox"/> Credit Card</label>
+    <label><input type="checkbox"/> Debit Card</label>
+    <label><input type="checkbox"/> Cash</label>
+    <button type="submit">Select Card</button>
+  </div>
+  <button type="submit">Send Data</button>
+</form>
+</body>
+</html>
